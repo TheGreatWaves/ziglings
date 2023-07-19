@@ -523,7 +523,7 @@ const exercises = [_]Exercise{
     .{
         .main_file = "001_hello.zig",
         .output = "Hello world!",
-        .hint =
+        .hint = 
         \\DON'T PANIC!
         \\Read the compiler messages above. (Something about 'main'?)
         \\Open up the source file as noted below and read the comments.
@@ -560,7 +560,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "007_strings2.zig",
-        .output =
+        .output = 
         \\Ziggy played guitar
         \\Jamming good with Andrew Kelley
         \\And the Spiders from Mars
@@ -695,7 +695,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "036_enums2.zig",
-        .output =
+        .output = 
         \\<p>
         \\  <span style="color: #ff0000">Red</span>
         \\  <span style="color: #00ff00">Green</span>
@@ -710,7 +710,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "038_structs2.zig",
-        .output =
+        .output = 
         \\Character 1 - G:20 H:100 XP:10
         \\Character 2 - G:10 H:100 XP:20
         ,
@@ -734,7 +734,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "043_pointers5.zig",
-        .output =
+        .output = 
         \\Wizard (G:10 H:100 XP:20)
         \\  Mentor: Wizard (G:10000 H:100 XP:2340)
         ,
@@ -778,7 +778,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "052_slices.zig",
-        .output =
+        .output = 
         \\Hand1: A 4 K 8
         \\Hand2: 5 2 Q J
         ,
@@ -848,7 +848,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "068_comptime3.zig",
-        .output =
+        .output = 
         \\Minnow (1:32, 4 x 2)
         \\Shark (1:16, 8 x 5)
         \\Whale (1:1, 143 x 95)
@@ -860,7 +860,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "070_comptime5.zig",
-        .output =
+        .output = 
         \\"Quack." ducky1: true, "Squeek!" ducky2: true, ducky3: false
         ,
         .hint = "Have you kept the wizard hat on?",
@@ -913,7 +913,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "082_anonymous_structs3.zig",
-        .output =
+        .output = 
         \\"0"(bool):true "1"(bool):false "2"(i32):42 "3"(f32):3.14159202e+00
         ,
         .hint = "This one is a challenge! But you have everything you need.",
@@ -969,7 +969,7 @@ const exercises = [_]Exercise{
 
     .{
         .main_file = "092_interfaces.zig",
-        .output =
+        .output = 
         \\Daily Insect Report:
         \\Ant is alive.
         \\Bee visited 17 flowers.
@@ -1004,7 +1004,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "099_formatting.zig",
-        .output =
+        .output = 
         \\
         \\ X |  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
         \\---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
@@ -1045,7 +1045,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "101_for5.zig",
-        .output =
+        .output = 
         \\1. Wizard (Gold: 25, XP: 40)
         \\2. Bard (Gold: 11, XP: 17)
         \\3. Bard (Gold: 5, XP: 55)
@@ -1059,7 +1059,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "103_tokenization.zig",
-        .output =
+        .output = 
         \\My
         \\name
         \\is
@@ -1080,7 +1080,7 @@ const exercises = [_]Exercise{
     },
     .{
         .main_file = "999_the_end.zig",
-        .output =
+        .output = 
         \\
         \\This is the end for now!
         \\We hope you had fun and were able to learn a lot, so visit us again when the next exercises are available.
